@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+//below is the code to print the size of data types.
+int main(){
+	cout<<"Size of the  fundamental data types in cpp : \n";
+	cout<<"The size of char is : "<<sizeof(char)<< "bytes \n";
+	cout<<"The size of int is : "<<sizeof(int)<< "bytes \n";
+	cout<<"The size of short is : "<<sizeof(short)<< "bytes \n";
+	cout<<"The size of long is : "<<sizeof(long)<< "bytes \n";
+	cout<<"The size of float is : "<<sizeof(float)<< "bytes \n";
+	cout<<"The size of double is : "<<sizeof(double)<< "bytes \n";
+	cout<<"The size of long double is : "<<sizeof(long double)<< "bytes \n";
+	cout<<"The size of long long is : "<<sizeof(long long)<< "bytes \n";
+	cout<<"The size of bool is : "<<sizeof(bool)<< "bytes \n";
+	return 0;
+}
+
+#include<iostream>
+using namespace std;
+//below is the code to print product of two numbers.
+int main(){
+	float a,b;
+	cout<<"Enter the value of first number: ";
+	cin>>a;
+	cout<<"Enter the value of second number: ";
+	cin>>b;
+	cout<<"Product of two numbers is "<<(a*b)<<"\n";
+}
